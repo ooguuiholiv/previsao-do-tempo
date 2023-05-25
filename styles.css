@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1478827387698-1527781a4887?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY4NTAzNDEwOQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+}
+
+.caixa-maior {
+  background: #000;
+  width: 95%;
+  max-width: 420px;
+  opacity: 0.8;
+  border-radius: 0.7rem;
+  padding: 3rem;
+  color: #dfdfdf;
+}
+input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 0.3rem;
+  font-size: 18px;
+  background-color: #7c7c7c2b;
+  color: #dfdfdf;
+  width: calc(100% - 70px);
+}
+button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #7c7c7c2b;
+  cursor: pointer;
+  float: right;
+}
+button:hover {
+  background-color: #7c7c7c6b;
+}
+button img {
+  width: 20px;
+}
+
+.caixa-media {
+  margin-top: 30px;
+}
+.cidade {
+  color: #dfdfdf;
+  font-size: clamp(8px, 1rem, 18px);
+  font-weight: 300;
+}
+.temp {
+  font-size: clamp(8px, 0.9rem, 17px);
+  color: #dfdfdf;
+  margin-top: 10px;
+}
+.caixa-menor {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.txt-previsao {
+  color: #dfdfdf;
+  margin-left: 20px;
+}
+.umidade{
+    color: #dfdfdf;
+    margin-top: 20px;
+    
+}
