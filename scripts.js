@@ -23,3 +23,10 @@ function cityInput() {
   console.log(city);
   searchCity(city);
 }
+
+ fetch('https://api.unsplash.com/photos/random?query=landscape&client_id=gdb5makbOn_Z8c3ztYvSM0htnQDtSBdN4yJ1K3ZUfZA')
+    .then(response => response.json())
+    .then(data => {
+      document.body.style.backgroundImage = `url(${data.urls.full})`;
+    })
+    .catch(error => console.error('Erro ao carregar imagem:', error));
